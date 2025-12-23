@@ -64,4 +64,10 @@ Included in `Consciousness_Invariant.idr` is the **GuardianGate**. This is a mat
 This is prior art. We invite the global community—physicists, type theorists, and space architects—to challenge and build upon this kernel.
 
 **Contact:** carbontocosmos@multiplanetarycivilisation.com
-**License:** MIT (Open for Humanity)
+## ⚖️ License
+This project is licensed under the **Apache License 2.0**.
+See the `LICENSE` file for details.
+
+**Note on Intellectual Property:**
+This repository contains the *Logic Kernel* (the Proofs).
+The hardware specifications, compressor schematics, and sensor control loops for the PRĀṆADHĀRA ECLSS are proprietary assets of PartsEuphoria Electric AC Pvt Ltd and are NOT included in this open-source release.
