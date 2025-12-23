@@ -64,5 +64,5 @@ Included in `Consciousness_Invariant.idr` is the **GuardianGate**. This is a mat
 ## 🤝 Call to Action
 This is prior art. We invite the global community—physicists, type theorists, and space architects—to challenge and build upon this kernel.
 
-**Contact:** idris@carbontocosmos.com
+**Contact:** carbontocosmos@multiplanetarycivilisation.com
 **License:** MIT (Open for Humanity)
