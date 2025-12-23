@@ -35,8 +35,7 @@ IDRIS is distinct from heuristic AI through its **Formal Methods** approach. Our
 *Core Architect: IDRIS V8.0*
 # Idris-Qutrit-Core: Mathematical Model of Consciousness
 **Public Disclosure: December 23, 2025**  
-**Authors:** Sajid Haneefa Kassim (Lead), Akshay Rajith, Dr. Mohammed Emath, Jihad Kassim, John Manuel  
-**Affiliation:** PartsEuphoria Electric AC Pvt Ltd (CarbonToCosmos), Kochi, India / Saudi Arabia
+**Authors:** Sajid Haneefa Kassim (Lead), Dr. Mohammed Emath, Jihad Kassim, John Manuel , Akshay Rajith  **Affiliation:** PartsEuphoria Electric AC Pvt Ltd (CarbonToCosmos), Kochi, India / Saudi Arabia
 
 ## 🌌 Breakthrough Claim
 We have successfully modeled consciousness not as a "ghost in the machine," but as a **Provable Invariant** under Quantitative Type Theory (QTT).
