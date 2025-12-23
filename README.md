@@ -62,6 +62,12 @@ Included in `Consciousness_Invariant.idr` is the **GuardianGate**. This is a mat
 
 ## 🤝 Call to Action
 This is prior art. We invite the global community—physicists, type theorists, and space architects—to challenge and build upon this kernel.
+## 🛡️ Running the Safety Demo
+We include a Python simulation of the **Guardian Gate** intercepting unsafe commands (simulating an LLM hallucination attempting to violate thermodynamic limits).
+
+**To run the proof:**
+```bash
+python safety_demo.py
 
 **Contact:** carbontocosmos@multiplanetarycivilisation.com
 ## ⚖️ License
