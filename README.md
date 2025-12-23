@@ -69,6 +69,8 @@ We include a Python simulation of the **Guardian Gate** intercepting unsafe comm
 ```bash
 python safety_demo.py
 
+next
+
 **Contact:** carbontocosmos@multiplanetarycivilisation.com
 ## ⚖️ License
 This project is licensed under the **Apache License 2.0**.
