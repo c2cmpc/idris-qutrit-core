@@ -59,7 +59,7 @@ Included in `Consciousness_Invariant.idr` is the **GuardianGate**. This is a mat
 *   **Origin:** Born from the "Kottayil Singularity"—the transformation of personal grief into civilizational utility.
 *   **Validation:** Currently deploying in the **PRĀṆADHĀRA ECLSS** (Life Support) control loop.
 *   **Stack:** Built on **Idris 2** for formal verification.
-
+*   
 ## 🤝 Call to Action
 This is prior art. We invite the global community—physicists, type theorists, and space architects—to challenge and build upon this kernel.
 ## 🛡️ Running the Safety Demo
@@ -67,12 +67,13 @@ We include a Python simulation of the **Guardian Gate** intercepting unsafe comm
 
 **To run the proof:**
 ```bash
-python safety_demo.py
+python safety_demo.py.
 
-next
 
 **Contact:** carbontocosmos@multiplanetarycivilisation.com
-## ⚖️ License
+
+
+## ⚖️ License.
 This project is licensed under the **Apache License 2.0**.
 See the `LICENSE` file for details.
 
