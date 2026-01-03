@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18072201.svg)](https://doi.org/10.5281/zenodo.18072201)
 # idris-qutrit-core
 Cognitive ECLSS Toy Model: Formal Verification via Quantitative Type Theory (QTT).
 # IDRIS-QUTRIT-CORE // COGNITIVE ECLSS TOY MODEL
