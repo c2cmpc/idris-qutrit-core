@@ -1,0 +1,44 @@
+{
+  "experiment": "Trinity Core Phase 2 - Kottayil Triad Full Encoding",
+  "backend": "ibm_fez",
+  "shots": 1024,
+  "encoding": "|00>=Love/Info  |01>=Hope/Space  |10>=Fear/Time",
+  "timestamp": "2026-03-20T19:23:33.920397",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "job_id": "d6upt52tnsts73esev70",
+  "state_purities": {
+    "Love_Information": 98.83,
+    "Hope_Space": 96.58,
+    "Fear_Time": 97.75,
+    "average": 97.72
+  },
+  "results": {
+    "Love_Information_00": {
+      "00": 1012,
+      "10": 11,
+      "01": 1
+    },
+    "Hope_Space_01": {
+      "01": 989,
+      "00": 28,
+      "11": 7
+    },
+    "Fear_Time_10": {
+      "10": 1001,
+      "00": 23
+    },
+    "Triad_Superposition": {
+      "01": 252,
+      "00": 266,
+      "11": 254,
+      "10": 252
+    },
+    "LFH_Equilibrium": {
+      "10": 372,
+      "01": 185,
+      "00": 190,
+      "11": 277
+    }
+  }
+}
