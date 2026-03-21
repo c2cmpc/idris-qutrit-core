@@ -1,0 +1,38 @@
+{
+  "experiment": "Phase Coherence Spin Dynamics AC Triad Shield",
+  "backend": "ibm_fez",
+  "job_id": "d6v8f2qtnsts73esujl0",
+  "shots": 4096,
+  "date": "2026-03-21T11:57:33.625678",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos PRANADARA ECLSS",
+  "physical_mapping": {
+    "qubit": "spin of incoming charged particle (proton)",
+    "RZ": "dynamic phase from AC field (time-dependent)",
+    "RY": "geometric phase from field geometry (path-dependent)",
+    "P0_high": "particle trapped",
+    "P0_low": "particle deflected"
+  },
+  "results": {
+    "Reference (no field)": 0.997,
+    "DC Triad (geometric phase)": 0.996,
+    "AC Dipole 1 cycles": 0.969,
+    "AC Dipole 2 cycles": 0.93,
+    "AC Dipole 3 cycles": 0.874,
+    "AC Triad 1 cycles": 0.991,
+    "AC Triad 2 cycles": 0.982,
+    "AC Triad 3 cycles": 0.967,
+    "Resonant Triad 1 cycles": 0.855,
+    "Resonant Triad 2 cycles": 0.562,
+    "Resonant Triad 3 cycles": 0.37,
+    "AC Dipole high field": 0.576,
+    "AC Triad high field": 0.854
+  },
+  "key_comparisons": {
+    "dc_triad_geometric_only": 0.996,
+    "ac_triad_3cycles": 0.967,
+    "ac_dipole_3cycles": 0.874,
+    "resonant_triad_3cycles": 0.37,
+    "ac_triad_vs_dipole_advantage": 0.094
+  }
+}
