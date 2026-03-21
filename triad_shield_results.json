@@ -1,0 +1,57 @@
+{
+  "experiment": "Triad 3D Radiation Shielding Coverage",
+  "backend": "ibm_fez",
+  "job_id": "d6v7b7469uic73cj0200",
+  "shots": 4096,
+  "date": "2026-03-21T10:41:59.591279",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos ECLSS Radiation Shield",
+  "results": {
+    "Reference (no field)": {
+      "x_coverage": 0.994,
+      "y_coverage": 0.979,
+      "z_coverage": 0.996,
+      "isotropy": 0.983,
+      "min_coverage": 0.979
+    },
+    "Dipole (X only)": {
+      "x_coverage": 0.277,
+      "y_coverage": 0.977,
+      "z_coverage": 0.997,
+      "isotropy": 0.281,
+      "min_coverage": 0.277
+    },
+    "Quadrupole (X+Y)": {
+      "x_coverage": 0.266,
+      "y_coverage": 0.246,
+      "z_coverage": 0.996,
+      "isotropy": 0.25,
+      "min_coverage": 0.246
+    },
+    "TRIAD (X+Y+Z 120deg)": {
+      "x_coverage": 0.274,
+      "y_coverage": 0.248,
+      "z_coverage": 0.248,
+      "isotropy": 0.974,
+      "min_coverage": 0.248
+    },
+    "TRIAD K3 (connected)": {
+      "x_coverage": 0.615,
+      "y_coverage": 0.571,
+      "z_coverage": 0.48,
+      "isotropy": 0.865,
+      "min_coverage": 0.48
+    },
+    "Asymmetric (X+Y+Z bad)": {
+      "x_coverage": 0.856,
+      "y_coverage": 0.735,
+      "z_coverage": 0.504,
+      "isotropy": 0.648,
+      "min_coverage": 0.504
+    }
+  },
+  "triad_vs_dipole_isotropy": 3.472,
+  "triad_vs_dipole_coverage": 0.893,
+  "k3_vs_triad_isotropy": 0.888,
+  "physical_basis": "Berry phase Exp4 99.4% + K3 isotropy 76.2%"
+}

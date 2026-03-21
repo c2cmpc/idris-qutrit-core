@@ -1,0 +1,23 @@
+{
+  "experiment": "Aharonov-Bohm Berry Phase Radiation Shielding",
+  "backend": "ibm_fez",
+  "job_id": "d6v78ts69uic73civul0",
+  "shots": 4096,
+  "date": "2026-03-21T10:35:52.734393",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos Space Radiation Shielding",
+  "results": {
+    "Reference": 0.994,
+    "Dipole 100%": 0.995,
+    "Quadrupole": 0.993,
+    "TRIAD 100%": 0.996,
+    "Hexapole": 0.995,
+    "Random": 0.267,
+    "Triad 50% power": 0.021,
+    "Dipole 150% power": 0.027,
+    "Triad entangled": 0.973
+  },
+  "triad_vs_dipole": 1.001,
+  "triad_half_vs_dipole_full": 0.021,
+  "triad_entangled": 0.973
+}
