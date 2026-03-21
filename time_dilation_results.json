@@ -1,0 +1,19 @@
+{
+  "experiment": "Time Dilation Analog -- Kottayil Triad",
+  "backend": "ibm_fez",
+  "job_id": "d6v3shs69uic73cisckg",
+  "shots": 4096,
+  "date": "2026-03-21T06:44:34.881418",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "ground_probabilities": {
+    "reference": 0.994,
+    "quarter_speed": 0.992,
+    "half_speed": 0.996,
+    "full_speed": 0.994,
+    "double_speed": 0.995
+  },
+  "dilation_signal_pct": 0.1,
+  "speed_effect_pct": 0.2,
+  "dilation_detected": false
+}

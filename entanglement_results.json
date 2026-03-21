@@ -1,0 +1,26 @@
+{
+  "experiment": "Entanglement Entropy -- Kottayil Triad Bekenstein Connection",
+  "backend": "ibm_fez",
+  "job_id": "d6v3qn2f84ks73det16g",
+  "shots": 4096,
+  "date": "2026-03-21T06:40:39.423169",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "entropies": {
+    "bell_max": 1.31,
+    "product_zero": 1.998,
+    "triad_entangled": 1.328,
+    "random_entangled": 1.455,
+    "triad_separable": 1.998
+  },
+  "correlations": {
+    "bell": 0.888,
+    "product": 0.033,
+    "triad": 0.878,
+    "random": 0.809,
+    "triad_sep": 0.05
+  },
+  "triad_efficiency_pct": 101.4,
+  "random_efficiency_pct": 111.0,
+  "triad_beats_random": false
+}
