@@ -1,0 +1,51 @@
+{
+  "experiment": "Uncertainty Principle -- Kottayil Triad",
+  "backend": "ibm_fez",
+  "job_id": "d6v3nlaf84ks73desu00",
+  "shots": 4096,
+  "date": "2026-03-21T06:34:16.936937",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "results": {
+    "Love_ground": {
+      "ex": -0.006,
+      "ey": -0.006,
+      "ez": 0.99,
+      "dx": 1.0,
+      "dz": 0.143,
+      "uncertainty_product": 0.143,
+      "min_bound": 0.003,
+      "saturates_bound": false
+    },
+    "Hope_superpos": {
+      "ex": 0.986,
+      "ey": -0.015,
+      "ez": 0.005,
+      "dx": 0.168,
+      "dz": 1.0,
+      "uncertainty_product": 0.168,
+      "min_bound": 0.007,
+      "saturates_bound": false
+    },
+    "Triad_full": {
+      "ex": 0.99,
+      "ey": 0.021,
+      "ez": 0.0,
+      "dx": 0.139,
+      "dz": 1.0,
+      "uncertainty_product": 0.139,
+      "min_bound": 0.011,
+      "saturates_bound": false
+    },
+    "Random": {
+      "ex": 0.794,
+      "ey": 0.242,
+      "ez": -0.507,
+      "dx": 0.608,
+      "dz": 0.862,
+      "uncertainty_product": 0.524,
+      "min_bound": 0.121,
+      "saturates_bound": false
+    }
+  }
+}
