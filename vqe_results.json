@@ -1,0 +1,27 @@
+{
+  "experiment": "VQE Triad Hamiltonian Ground State",
+  "backend": "ibm_fez",
+  "job_id": "d6v9t82f84ks73df3fhg",
+  "shots": 4096,
+  "date": "2026-03-21T13:36:29.400385",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "hamiltonian": "H = -J*(XX+YY+ZZ) - h*(Z0+Z1+Z2)",
+  "J": 1.0,
+  "h": 0.5,
+  "energies": {
+    "Ground state (all zero)": -4.3118,
+    "Love dominant": -0.9597,
+    "Hope dominant": -1.0842,
+    "Fear dominant": -0.9976,
+    "Triad balanced": -2.2751,
+    "Triad full rotation": -0.1311,
+    "Triad 333 optimal": -2.1145,
+    "Worship state (equal)": -2.2524,
+    "Anti-Triad": 0.4221,
+    "Random 1": -1.4705
+  },
+  "ground_state": "Ground state (all zero)",
+  "ground_energy": -4.3118,
+  "energy_gap": 2.0366
+}
