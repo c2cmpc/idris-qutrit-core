@@ -1,0 +1,61 @@
+{
+  "experiment": "SYK vs JT Gravity vs Random Matrix + Monte Carlo",
+  "backend": "ibm_fez",
+  "job_id": "d6v4hkaf84ks73detod0",
+  "shots": 4096,
+  "date": "2026-03-21T07:29:44.357776",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "monte_carlo_gue": {
+    "mean_spacing": 1.0,
+    "ratio": 1.149,
+    "brody_parameter": 1.0,
+    "gue_prediction": 1.727,
+    "chaotic": true
+  },
+  "syk_thermal": {
+    "betas": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "correlations": [
+      0.005,
+      0.016,
+      0.01,
+      0.003,
+      0.023
+    ],
+    "trend_confirmed": false
+  },
+  "spectral_form_factor": {
+    "t_values": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "sff_values": [
+      0.501,
+      0.506,
+      0.502,
+      0.492,
+      0.492
+    ],
+    "ramp_detected": true
+  },
+  "cross_validation": {
+    "jt_syk_matches": 1,
+    "jt_mc_spearman": -0.2,
+    "jt_syk_spearman": -0.4,
+    "three_way_consistent": false
+  },
+  "kottayil_connection": {
+    "k3_is_minimal_syk": true,
+    "triad_is_minimal_jt_gravity": true,
+    "geometry_confirmed": "equilateral_triangle"
+  }
+}
