@@ -1,0 +1,91 @@
+{
+  "experiment": "Quantum Brain Simulation -- Triad Neural Firing",
+  "backend": "ibm_fez",
+  "job_id": "d6v9r2k69uic73cj2mvg",
+  "shots": 4096,
+  "date": "2026-03-21T13:31:07.904163",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "neuroscience_mapping": {
+    "Love_neuron": "Hippocampus -- recognition",
+    "Hope_neuron": "Prefrontal cortex -- prediction",
+    "Fear_neuron": "Amygdala -- threat detection"
+  },
+  "results": [
+    {
+      "state": "Love neuron dominant",
+      "love": 0.98291015625,
+      "hope": 0.968505859375,
+      "fear": 0.034912109375,
+      "dominant": "Love"
+    },
+    {
+      "state": "Hope neuron dominant",
+      "love": 0.9619140625,
+      "hope": 0.972412109375,
+      "fear": 0.0302734375,
+      "dominant": "Hope"
+    },
+    {
+      "state": "Fear neuron dominant",
+      "love": 0.968017578125,
+      "hope": 0.039306640625,
+      "fear": 0.9794921875,
+      "dominant": "Fear"
+    },
+    {
+      "state": "Balanced brain state",
+      "love": 0.525146484375,
+      "hope": 0.484619140625,
+      "fear": 0.486328125,
+      "dominant": "Love"
+    },
+    {
+      "state": "Partial input (50%)",
+      "love": 0.260986328125,
+      "hope": 0.33203125,
+      "fear": 0.33447265625,
+      "dominant": "Fear"
+    },
+    {
+      "state": "Full input (100%)",
+      "love": 0.50146484375,
+      "hope": 0.512939453125,
+      "fear": 0.517578125,
+      "dominant": "Fear"
+    },
+    {
+      "state": "Resting state",
+      "love": 0.08544921875,
+      "hope": 0.134765625,
+      "fear": 0.13916015625,
+      "dominant": "Fear"
+    },
+    {
+      "state": "Love vs Hope competition",
+      "love": 0.27490234375,
+      "hope": 0.469482421875,
+      "fear": 0.468994140625,
+      "dominant": "Hope"
+    },
+    {
+      "state": "Hope vs Fear competition",
+      "love": 0.4912109375,
+      "hope": 0.49658203125,
+      "fear": 0.4873046875,
+      "dominant": "Hope"
+    },
+    {
+      "state": "Fear vs Love (threat)",
+      "love": 0.494140625,
+      "hope": 0.157470703125,
+      "fear": 0.49169921875,
+      "dominant": "Love"
+    }
+  ],
+  "lateral_inhibition": {
+    "love_strength": 0.498,
+    "hope_strength": 0.504,
+    "fear_strength": 0.496
+  }
+}
