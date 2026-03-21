@@ -1,0 +1,31 @@
+{
+  "experiment": "Triad QEC v2",
+  "backend": "ibm_fez",
+  "job_id": "d6v4192tnsts73esq1c0",
+  "shots": 4096,
+  "date": "2026-03-21T06:54:47.719019",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "results": {
+    "standard_no_error": 0.998,
+    "standard_error_Q0": 0.98,
+    "standard_error_Q1": 0.988,
+    "standard_error_Q2": 0.99,
+    "triad_no_error": 1.0,
+    "triad_error_Q0": 0.995,
+    "triad_error_Q1": 0.994,
+    "triad_error_Q2": 0.995,
+    "random_no_error": 0.998,
+    "random_error_Q0": 0.984,
+    "random_error_Q1": 0.99,
+    "random_error_Q2": 0.996
+  },
+  "summary": {
+    "triad_avg_pct": 99.5,
+    "standard_avg_pct": 98.6,
+    "random_avg_pct": 99.0,
+    "triad_beats_standard": true,
+    "triad_symmetry_pct": 0.1,
+    "standard_symmetry_pct": 1.0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "Triad Quantum Error Correction",
+  "backend": "ibm_fez",
+  "job_id": "d6v3ue2f84ks73det530",
+  "shots": 4096,
+  "date": "2026-03-21T06:49:58.242345",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "results": {
+    "Standard_no_error": 0.997,
+    "Standard_error_Q0": 0.977,
+    "Standard_error_Q1": 0.987,
+    "Standard_error_Q2": 0.99,
+    "Triad_no_error": 0.158,
+    "Triad_error_Q0": 0.341,
+    "Triad_error_Q1": 0.34,
+    "Triad_error_Q2": 0.355,
+    "Random_no_error": 0.944,
+    "Random_error_Q0": 0.727,
+    "Random_error_Q1": 0.684,
+    "Random_error_Q2": 0.88
+  },
+  "summary": {
+    "triad_avg_correction": 34.5,
+    "standard_avg_correction": 98.5,
+    "random_avg_correction": 76.4,
+    "triad_beats_standard": false,
+    "triad_symmetry_error_pct": 1.5,
+    "standard_symmetry_error_pct": 1.3,
+    "triad_more_symmetric": false
+  }
+}
