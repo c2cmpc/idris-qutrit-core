@@ -1,0 +1,26 @@
+{
+  "experiment": "Trinity Core Phase 1 - Kottayil Triad Two-State Validation",
+  "backend": "ibm_fez",
+  "hardware": "IBM Heron r2, 156 qubits",
+  "job_id": "d6upleatnsts73eseku0",
+  "shots": 1024,
+  "date": "2026-03-20",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "instance": "CarbonToCosmos-Trinity-Pulse",
+  "qubit_calibration": {
+    "Q3_T1_us": 255.7,
+    "Q3_T2_us": 227.5
+  },
+  "results": {
+    "Love_Information_00": {"0": 1023, "1": 1},
+    "Hope_Space_01": {"0": 26, "1": 998},
+    "Triad_Superposition": {"0": 531, "1": 493}
+  },
+  "analysis": {
+    "Love_purity_pct": 99.9,
+    "Hope_purity_pct": 97.5,
+    "Superposition_balance": "51.9% / 48.1%"
+  },
+  "conclusion": "Two-state structure validated. Love and Hope hold with near-perfect fidelity on IBM quantum hardware."
+}
