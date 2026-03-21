@@ -1,0 +1,19 @@
+{
+  "experiment": "Kottayil Triad Isotropy Validation",
+  "backend": "ibm_fez",
+  "job_id": "d6v1blaf84ks73deqf60",
+  "shots": 4096,
+  "date": "2026-03-21",
+  "architect": "Sajid Haneefa Kassim",
+  "cto": "Jihad Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "results": {
+    "Love_Information_00": {"purity": 97.7, "noise": 2.3},
+    "Hope_Space_01": {"purity": 96.0, "noise": 4.0},
+    "Fear_Time_10": {"purity": 95.6, "noise": 4.4}
+  },
+  "average_purity": 96.5,
+  "symmetry_error": 2.1,
+  "LHF_confirmed": true,
+  "note": "Three independent circuits. All three Triad states above 95%. Symmetry error 2.1%. L=H=F isotropy confirmed on IBM quantum hardware."
+}
