@@ -1,0 +1,19 @@
+{
+  "experiment": "Triad State Machine",
+  "backend": "ibm_fez",
+  "job_id": "d6v44fqf84ks73detbjg",
+  "shots": 4096,
+  "date": "2026-03-21T07:01:32.629016",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "state_probabilities": {
+    "love_start": 0.995,
+    "after_love_to_hope": 0.716,
+    "after_hope_to_fear": 0.723,
+    "after_full_cycle": 0.994,
+    "reverse_cycle": 0.997,
+    "double_cycle": 0.994
+  },
+  "cycle_fidelity": 99.9,
+  "time_symmetric": true
+}
