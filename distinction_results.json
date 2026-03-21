@@ -1,0 +1,17 @@
+{
+  "experiment": "Distinction as Quantum Gate",
+  "backend": "ibm_fez",
+  "job_id": "d6v2rratnsts73esord0",
+  "shots": 4096,
+  "date": "2026-03-21T05:34:49.031861",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "results": {
+    "distinction_only": 0.994,
+    "distinction_triad": 0.994,
+    "distinction_random": 0.167,
+    "distinction_double_triad": 0.995
+  },
+  "triad_vs_random_difference": 0.827,
+  "distinct_signature": true
+}
