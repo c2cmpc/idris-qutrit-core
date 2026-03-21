@@ -1,0 +1,26 @@
+{
+  "experiment": "SYK Proper -- N=2 qubits Jordan-Wigner",
+  "backend": "ibm_fez",
+  "job_id": "d6v4kvk69uic73cit4vg",
+  "shots": 2048,
+  "n_realizations": 10,
+  "date": "2026-03-21T07:38:00.605453",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "syk_thermal": {
+    "0.0": -0.0167,
+    "0.5": -0.0012,
+    "1.0": -0.0129,
+    "2.0": -0.0109
+  },
+  "sff": {
+    "min": 0.8107,
+    "plateau": 0.8451,
+    "ramp_detected": false
+  },
+  "level_spacing_r": 0.364,
+  "gue_target": 0.599,
+  "poisson_target": 0.386,
+  "spearman_jt_syk": 0.4,
+  "kendall_tau": 0.333
+}
