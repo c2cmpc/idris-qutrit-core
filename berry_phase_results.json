@@ -1,0 +1,17 @@
+{
+  "experiment": "Berry Phase - Kottayil Triad Geometric Gate",
+  "backend": "ibm_fez",
+  "job_id": "d6v22f0v5rlc73f4gsh0",
+  "shots": 4096,
+  "date": "2026-03-21",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "path": "Love(0) -> Hope(+1) -> Fear(-1) -> Love(0)",
+  "rotation": "3 x 120 degrees = equilateral triangle",
+  "results": {
+    "reference_no_rotation": {"0": 49.1, "1": 50.9},
+    "full_triangle_berry_phase": {"0": 99.4, "1": 0.6},
+    "half_triangle": {"0": 76.4, "1": 23.6}
+  },
+  "conclusion": "Full triangular path collapses to ground state with 99.4% probability. Berry phase of the Kottayil Triad rotation confirmed on IBM quantum hardware. Information stored in the path of the rotating triangle."
+}
