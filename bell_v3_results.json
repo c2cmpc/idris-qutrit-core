@@ -1,0 +1,14 @@
+{
+  "experiment": "Bell CHSH v3 Triad adjusted angles",
+  "backend": "ibm_fez",
+  "job_id": "d6va20ov5rlc73f4p7cg",
+  "shots": 4096,
+  "date": "2026-03-21T13:45:55.560964",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "standard_S": 2.507,
+  "triad_S": 2.539,
+  "standard_violates": true,
+  "triad_violates": true,
+  "triad_beats_standard": true
+}

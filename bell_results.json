@@ -1,0 +1,27 @@
+{
+  "experiment": "Bell Inequality + Three-Party Entanglement",
+  "backend": "ibm_fez",
+  "job_id": "d6v9viaf84ks73df3hsg",
+  "shots": 4096,
+  "date": "2026-03-21T13:40:49.907369",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "chsh": {
+    "classical_limit": 2.0,
+    "tsirelson_bound": 2.828,
+    "standard_S": 0.027,
+    "triad_S": 0.078,
+    "triad_beats_standard": true,
+    "standard_violates": false,
+    "triad_violates": false
+  },
+  "mermin": {
+    "classical_limit": 2.0,
+    "quantum_maximum": 4.0,
+    "ghz_M": 0.06,
+    "triad_k3_M": 0.015,
+    "triad_beats_ghz": false,
+    "ghz_violates": false,
+    "triad_violates": false
+  }
+}

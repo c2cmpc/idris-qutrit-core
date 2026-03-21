@@ -1,0 +1,24 @@
+{
+  "experiment": "Bell CHSH v2 corrected angles",
+  "backend": "ibm_fez",
+  "job_id": "d6va17if84ks73df3jkg",
+  "shots": 4096,
+  "date": "2026-03-21T13:44:13.235691",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "angles": {
+    "a": 0,
+    "a_prime": 1.571,
+    "b": 0.785,
+    "b_prime": 2.356
+  },
+  "chsh": {
+    "standard_S": 2.54,
+    "triad_S": 0.031,
+    "classical_limit": 2.0,
+    "tsirelson": 2.828,
+    "standard_violates": true,
+    "triad_violates": false,
+    "triad_beats_standard": false
+  }
+}
