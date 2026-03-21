@@ -1,0 +1,18 @@
+{
+  "experiment": "K3 Complete Graph Correlation",
+  "backend": "ibm_fez",
+  "job_id": "d6v45bov5rlc73f4j1dg",
+  "shots": 4096,
+  "date": "2026-03-21T07:03:24.723263",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "aligned_probabilities": {
+    "k3": 0.497,
+    "k3_triad": 0.477,
+    "chain": 0.924,
+    "star": 0.967,
+    "ghz": 0.965
+  },
+  "k3_beats_star": false,
+  "k3_beats_chain": false
+}
