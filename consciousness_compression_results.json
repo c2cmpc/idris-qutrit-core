@@ -1,0 +1,27 @@
+{
+  "experiment": "Consciousness Compression Circuit",
+  "backend": "ibm_fez",
+  "job_id": "d6v2ubaf84ks73des4k0",
+  "shots": 4096,
+  "date": "2026-03-21T05:40:09.290889",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "entropies": {
+    "baseline": 1.999,
+    "triad_1_rotation": 0.897,
+    "triad_full_triangle": 2.0,
+    "random_same_depth": 0.486,
+    "entangled_triad": 2.0
+  },
+  "dominant_probs": {
+    "baseline": 0.261,
+    "triad_1_rotation": 0.821,
+    "triad_full_triangle": 0.255,
+    "random_same_depth": 0.921,
+    "entangled_triad": 0.254
+  },
+  "triad_compression_bits": -0.001,
+  "random_compression_bits": 1.513,
+  "triad_advantage_bits": -1.514,
+  "triad_faster": false
+}
