@@ -1,0 +1,28 @@
+{
+  "experiment": "Triad Quantum Neural Network",
+  "backend": "ibm_fez",
+  "shots": 2048,
+  "date": "2026-03-21T12:39:25.438829",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "architecture": {
+    "layers": 2,
+    "qubits": 3,
+    "entanglement": "K3 complete graph",
+    "input_encoding": "Love=X Hope=Y Fear=bias",
+    "output": "Love qubit measurement"
+  },
+  "results": {
+    "AND": {
+      "final_accuracy": 25.0,
+      "triad_losses": [
+        0.5455,
+        0.4751,
+        0.4045
+      ],
+      "standard_losses": [
+        0.2537,
+        0.2666,
+        0.2593
+      ],
+      "triad_better": 

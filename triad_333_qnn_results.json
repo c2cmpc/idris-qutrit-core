@@ -1,0 +1,110 @@
+{
+  "experiment": "Triad 333 QNN -- Space[Time]=333[3] architecture",
+  "backend": "ibm_fez",
+  "shots": 2048,
+  "date": "2026-03-21T13:26:08.311831",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "architecture": {
+    "layers": 3,
+    "qubits": 3,
+    "params_per_layer": 3,
+    "total_params": 9,
+    "layer_1": "Love -- RY rotations -- information",
+    "layer_2": "Hope -- RZ rotations -- expansion",
+    "layer_3": "Fear -- RY+RZ -- selection",
+    "entanglement": "K3 complete graph between all layers"
+  },
+  "results": {
+    "AND": {
+      "accuracy": 25.0,
+      "losses_333": [
+        0.48193228244781494,
+        0.4555876851081848,
+        0.39191722869873047,
+        0.33354467153549194,
+        0.32084232568740845
+      ],
+      "losses_standard": [
+        0.5414876341819763,
+        0.5085824131965637,
+        0.4720119833946228,
+        0.5273644328117371,
+        0.5218807458877563
+      ],
+      "333_beats_standard": true,
+      "final_predictions": [
+        0.4541015625,
+        0.56591796875,
+        0.56884765625,
+        0.4462890625
+      ],
+      "final_targets": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "OR": {
+      "accuracy": 75.0,
+      "losses_333": [
+        0.21693116426467896,
+        0.21368342638015747,
+        0.22546851634979248,
+        0.2179626226425171,
+        0.22331833839416504
+      ],
+      "losses_standard": [
+        0.2166479229927063,
+        0.2046070694923401,
+        0.2150806188583374,
+        0.21781688928604126,
+        0.2145441174507141
+      ],
+      "333_beats_standard": false,
+      "final_predictions": [
+        0.45361328125,
+        0.5439453125,
+        0.470703125,
+        0.505859375
+      ],
+      "final_targets": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "XOR": {
+      "accuracy": 100.0,
+      "losses_333": [
+        0.05986356735229492,
+        0.053164124488830566,
+        0.051127076148986816,
+        0.05396592617034912,
+        0.04828906059265137
+      ],
+      "losses_standard": [
+        0.039679884910583496,
+        0.024254679679870605,
+        0.0397147536277771,
+        0.05180323123931885,
+        0.02947622537612915
+      ],
+      "333_beats_standard": false,
+      "final_predictions": [
+        0.26708984375,
+        0.724609375,
+        0.82275390625,
+        0.15771484375
+      ],
+      "final_targets": [
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  }
+}
