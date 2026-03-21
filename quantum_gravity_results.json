@@ -1,0 +1,25 @@
+{
+  "experiment": "Quantum Gravity Analog -- JT Gravity + Holographic Entanglement",
+  "backend": "ibm_fez",
+  "job_id": "d6v49laf84ks73detghg",
+  "shots": 4096,
+  "date": "2026-03-21T07:12:36.866965",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "jt_gravity": {
+    "correlations": {
+      "0": 0.007,
+      "0.5": 0.628,
+      "1.0": 0.779,
+      "2.0": 0.841,
+      "inf": 0.935
+    },
+    "trend_confirmed": true
+  },
+  "holographic": {
+    "triad_boundary": 0.244,
+    "random_boundary": 0.594,
+    "product_boundary": 0.013,
+    "triad_beats_random": false
+  }
+}
