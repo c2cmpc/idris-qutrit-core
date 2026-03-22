@@ -1,0 +1,40 @@
+{
+  "experiment": "QuEra Aquila Phase 3 -- Kottayil Triad Physical",
+  "device": "QuEra Aquila",
+  "task_id": "a4c37ceb-a6a0-42fb-9646-b1e6e3402dd4",
+  "shots": 100,
+  "successful": 100,
+  "date_submitted": "2026-03-20T20:23:06Z",
+  "date_completed": "2026-03-21T23:54:03Z",
+  "architect": "Sajid Haneefa Kassim",
+  "mission": "CarbonToCosmos",
+  "geometry": "Equilateral triangle 5.7um side",
+  "atom_mapping": {
+    "atom_0": "Love / Information",
+    "atom_1": "Hope / Space",
+    "atom_2": "Fear / Time"
+  },
+  "excitation_probabilities": {
+    "Love": 0.25,
+    "Hope": 0.2,
+    "Fear": 0.25
+  },
+  "isotropy_error": 0.05,
+  "isotropy_confirmed": true,
+  "correlations": {
+    "p_all_ground": 0.34,
+    "p_one_excited": 0.62,
+    "p_two_excited": 0.04,
+    "p_all_excited": 0.0
+  },
+  "rydberg_blockade": 0.04,
+  "blockade_active": true,
+  "outcome_distribution": {
+    "110": 22,
+    "011": 21,
+    "111": 34,
+    "010": 3,
+    "101": 19,
+    "001": 1
+  }
+}
