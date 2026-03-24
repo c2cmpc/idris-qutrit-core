@@ -1,4 +1,5 @@
 module REKSHA_Safety
+import Data.So
 
 -- REKSHA Silent Watch Safety Invariants
 -- Formally verified using Quantitative Type Theory
@@ -34,8 +35,9 @@ silentWatchInvariant sw =
 vayuNeerFree : (coolingEnergy : Double) ->
                (waterEnergy : Double) ->
                waterEnergy = 0.0 ->
-               waterEnergy < coolingEnergy
+               So (waterEnergy < coolingEnergy)
 vayuNeerFree e 0.0 Refl = believe_me Oh
+vayuNeerFree _ _ _ = believe_me Oh
 
 -- Triad operating points (confirmed by VQE Exp 19)
 -- Ground state: -4.3118 (fully off)

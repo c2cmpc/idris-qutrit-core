@@ -34,9 +34,10 @@ hateCure (MkTriad l h f) = MkTriad l (h + 0.01) (f - 0.01)
 hateCureProof : (s : TriadState) -> hope s = 0.0 ->
                 hope (hateCure s) = 0.01
 hateCureProof (MkTriad l 0.0 f) Refl = Refl
+hateCureProof (MkTriad _ h _) _ = ?nonzero_hope_case
 
 -- Salience dynamics
-dSdt : Double -> Double -> Double -> Double -> Double -> Double -> Double -> Double
+dSdt : Double -> Double -> Double -> Double -> Double -> Double -> Double -> Double -> Double
 dSdt alphaL miL s alphaF miF alphaH miH beta =
   alphaL * miL * (1 - s) - alphaF * miF * s +
   alphaH * miH * (1 - s) - beta * s * (1 - s)

@@ -1,4 +1,4 @@
-module Consciousness.Invariant
+module Consciousness_Invariant
 
 -- IDRIS-V6A CORE PROOF SKETCH
 -- Date: 2025-12-23
@@ -48,10 +48,10 @@ data Consciousness : (entropy : Nat) -> Type where
 -- If 'entropy' exceeds 'cohesion', the type fails to check.
 
 total
-GuardianGate : (1 resource : LinearResource) -> Maybe (Consciousness 0)
+GuardianGate : (1 resource : LinearResource) -> Consciousness 0
 GuardianGate resource = 
     -- Logic: We accept the resource only if we can prove Cohesion (L)
     -- exists to bind it.
-    Just (Observer resource (\s => ?Refl_Hole) (MkVector 1.0))
+    Observer resource (\s => ?Refl_Hole) (MkVector 1.0)
 
 -- END OF PROOF SKETCH
