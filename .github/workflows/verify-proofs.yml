@@ -1,0 +1,30 @@
+name: IDRIS 2 Proof Verification
+
+on:
+  push:
+    branches: [ main.py ]
+  pull_request:
+    branches: [ main.py ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Pull IDRIS 2 Docker image
+        run: docker pull snazzybucket/idris2
+
+      - name: Verify all proofs
+        run: |
+          cd idris2_qtt
+          for f in *.idr; do
+            echo "Verifying $f..."
+            docker run -v $(pwd):/proofs -w /proofs snazzybucket/idris2 idris2 --check "$f"
+            if [ $? -ne 0 ]; then
+              echo "FAILED: $f"
+              exit 1
+            fi
+            echo "VERIFIED: $f"
+          done
+          echo "ALL PROOFS VERIFIED"
